@@ -1,0 +1,842 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header start */
+
+.header_container {
+    padding-inline: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 11.5rem;
+}
+
+.header_container_left {
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    gap: 4.8rem;
+
+}
+
+.header_container_left_navbar {
+    gap: 4.8rem;
+}
+
+.header_container_left_navbar_menu {
+    display: flex;
+    gap: 4.8rem;
+}
+
+.header_container_left_navbar_menu_item {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.16rem;
+    letter-spacing: -0.01em;
+
+}
+
+.header_container_left_navbar_menu_item_link {
+    color: #8C8C8C;
+}
+
+.header_container_right {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+
+}
+
+.header_container_right_card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+
+
+
+
+.header_container_right_card_btn:nth-child(1) {
+    width: 10.3rem;
+    height: 4.3rem;
+    padding: 1.2rem 3.2rem 1.2rem 3.2rem;
+    border-radius: .8rem;
+    border: 1px solid #E0E8E0;
+
+
+}
+
+.header_container_right_card_btn:nth-child(2) {
+    width: 12.2rem;
+    height: 4.3rem;
+    padding: 1.2rem 3.2rem 1.2rem 3.2rem;
+    border-radius: 8px;
+    background-color: #1C4A2A;
+
+}
+
+.header_container_right_icons {
+    display: none;
+}
+
+/* header end */
+
+
+/* main_aboud_box start */
+
+.main_aboud_box {
+    display: flex;
+    width: 100%;
+
+}
+
+.main_aboud_box_left_box {
+    width: 50%;
+    height: 72.8rem;
+    padding-left: 6rem;
+    border-radius: 1px;
+    background-color: #1C4A2A;
+
+}
+
+.main_aboud_box_left_box_title {
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: 9rem;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    margin-top: 16.2rem;
+
+}
+
+.main_aboud_box_left_box_note {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 3.24rem;
+    color: #FFFFFFB2;
+    letter-spacing: -0.01em;
+    margin-top: 1.6rem;
+
+
+}
+
+.main_aboud_box_right_box_avatar {
+    width: 50%;
+    height: 72.8rem;
+}
+
+/* main_aboud_box end */
+
+
+/* main_animal_section start */
+
+.main_animal_section {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    display: flex;
+    align-items: center;
+    padding-inline: 6rem;
+    gap: 4.8rem;
+}
+
+
+
+
+
+.main_animal_section_cards {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.main_animal_section_cards_first_row {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    object-fit: cover;
+
+}
+
+.main_animal_section_cards_first_row_avatar {
+    width: 31.8rem;
+    height: 30rem;
+    gap: 0px;
+    border-radius: 1.2rem;
+
+}
+
+.main_animal_section_cards_second_row {
+    display: flex;
+    gap: 1.6rem;
+    flex-direction: column;
+    object-fit: cover;
+}
+
+
+.main_animal_section_cards_second_row_avatar {
+    width: 31.8rem;
+    height: 30rem;
+    gap: 0px;
+    border-radius: 1.2rem;
+
+}
+
+.main_animal_section_script_title {
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: 9rem;
+    color: #0E2515;
+    letter-spacing: -0.01em;
+}
+
+.main_animal_section_script_note {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 3.24rem;
+    letter-spacing: -0.01em;
+    color: #8C8C8C;
+    margin-top: 1.6rem;
+    margin-bottom: 4.8rem;
+
+
+}
+
+.main_animal_section_script_note_btn {
+    width: 23.9rem;
+    height: 6.4rem;
+    padding: 2rem 4.8rem 2rem 4.8rem;
+    gap: 1.6rem;
+    border-radius: 1rem;
+    border: 1px solid #E0E8E0;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+
+
+
+}
+
+/* main_animal_section end */
+
+
+/* main_adopt_section start */
+.main_adopt_section {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    padding-inline: 6rem;
+    display: flex;
+    gap: 4.8rem;
+
+}
+
+
+.main_adopt_section_primary_top {
+    margin-top: 9rem;
+}
+
+.main_adopt_section_primary_top_title_text {
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: 9rem;
+    letter-spacing: -0.01em;
+    color: #0E2515;
+
+}
+
+.main_adopt_section_primary_top_note {
+    font-size: 1.8rem;
+    color: #8C8C8C;
+    margin-top: 1.6rem;
+    font-weight: 500;
+
+
+}
+
+.main_adopt_section_primary_cards {
+    margin-top: 4.8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.6rem;
+}
+
+.main_adopt_section_primary_cards_item {
+    padding: 3.2rem 2.4rem;
+    background-color: #F8FCF9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 1px solid #E0E8E0;
+    border-radius: 1.2rem;
+    gap: 1.6rem;
+}
+
+
+.main_adopt_section_primary_cards_item_title {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #0E2515;
+    line-height: 3.6rem;
+
+}
+
+.main_adopt_section_primary_cards_item_note {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    font-weight: 500;
+}
+
+.main_adopt_section_right_avatar {
+    width: 62rem;
+    margin-top: 12.6rem;
+    height: 74rem;
+    border-radius: 1.6rem;
+
+
+}
+
+
+/*  main_adopt_section end*/
+
+
+/* main_followers_section start */
+.main_followers_section {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.main_followers_section_container {
+    width: 100%;
+    padding: 12rem 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+
+
+}
+
+.main_followers_section_container_top {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.main_followers_section_container_top_text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4.8rem;
+}
+
+.main_followers_section_container_top_text_note {
+    font-size: 2.8rem;
+    font-weight: 500;
+    line-height: 5.04rem;
+
+
+}
+
+.main_followers_section_container_top_text_btn {
+    width: 28.6rem;
+    height: 6.4rem;
+    padding: 2rem 4.8rem;
+    border-radius: 1rem;
+    border: 1px solid#E0E8E0;
+    align-items: center;
+    display: flex;
+
+
+}
+
+.main_followers_section_container_top_cards {
+    width: 30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4rem;
+    gap: 1.6rem;
+
+}
+
+.main_followers_section_container_top_cards_item {
+    padding-inline: 2.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.main_followers_section_container_top_cards_item_number {
+    font-size: 5.4rem;
+    font-weight: 500;
+    line-height: 9.6rem;
+    letter-spacing: -0.01em;
+    color: #0E2515;
+
+
+}
+
+.main_followers_section_container_top_cards_item_note {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 3.1rem;
+    columns: #8C8C8C;
+
+
+}
+
+
+.main_followers_section_container_top_text_btn_two {
+    display: none;
+}
+
+
+.main_followers_section_container_imgs {
+    display: flex;
+    gap: 1.6rem;
+
+}
+
+.main_followers_section_container_imgs_item {
+    width: 65.2rem;
+    height: 43.9rem;
+    border-radius: 1.5rem;
+
+
+
+}
+
+/* main_followers_section end  */
+
+/* main_donate_section start */
+.main_donate_section {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.main_donate_section_top {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main_donate_section_top_title {
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: 9rem;
+    color: #0E2515;
+
+
+}
+
+.main_donate_section_top_note {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 3.24rem;
+    color: #8C8C8C;
+    margin-top: 1.6rem;
+
+
+}
+
+.main_donate_section_cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.8rem;
+    gap: 3rem;
+}
+
+.main_donate_section_cards_item {
+    width: 42.9rem;
+    height: 34.2rem;
+    padding: 4rem 2.7rem;
+    gap: 4.8rem;
+    border-radius: 1.6rem;
+    border: 1px solid #E0E8E0;
+    background-color: #407DB8;
+    text-align: center;
+
+
+}
+
+.main_donate_section_cards_item_avatar {
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.main_donate_section_cards_item_title {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    font-weight: 500;
+    color: white;
+    margin-top: 1.6rem;
+    margin-bottom: .8rem;
+}
+
+.main_donate_section_cards_item_note {
+    color: white;
+}
+
+.main_donate_section_cards_item_btn {
+    width: 23.2rem;
+    height: 6.4rem;
+    padding: 2rem 4.8rem;
+    gap: 1.6rem;
+    border-radius: 1rem;
+    border: 1px solid#DEDEDE;
+    margin-top: 4.8rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.88rem;
+
+
+
+
+}
+
+.main_donate_section_cards_item_button {
+    display: flex;
+    justify-content: center;
+}
+
+.main_donate_section_cards_item_btn {
+    display: flex;
+    align-items: center;
+}
+
+.main_donate_section_cards_item:nth-child(2) {
+    background-color: #1C4A2A;
+    box-shadow: 0px 0.258rem 0.633rem 0px #1C4A2A0A;
+    padding: 4rem 2.7rem;
+    gap: 4.8rem;
+    border-radius: 1.6rem;
+    border: 1px solid #E0E8E0;
+    text-align: center;
+
+
+
+}
+
+.main_donate_section_cards_item_avatar {
+    height: 3.2rem;
+    height: 3.2rem;
+}
+
+/* main_donate_section end */
+
+
+.main_pets_section {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    margin-inline: 6rem;
+
+}
+
+.main_pets_section_top_text {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 0.7fr 0.9fr;
+}
+
+.main_pets_section_top_text_title {
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: 9rem;
+    color: #0E2515;
+
+
+
+}
+
+.main_pets_section_top_text_note {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 3.24rem;
+    color: #8C8C8C;
+
+
+}
+
+.main_pets_section_imgs {
+    display: flex;
+    gap: 2rem;
+    margin-top: 4.8rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main_pets_section_img {
+    width: 50.9rem;
+    height: 31.4rem;
+    border-radius: 1.4rem;
+
+
+}
+
+
+/* responsive start */
+@media screen and (max-width:768px) {
+
+
+    html {
+        font-size: 5px;
+
+    }
+
+
+    body {
+        font-size: 1.6rem;
+    }
+
+    .header_container_left_navbar_menu {
+        display: none;
+    }
+
+    .header_container_right_icons {
+        display: block;
+        gap: 2.4rem;
+    }
+
+    .header_container_right_card {
+        display: none;
+    }
+
+    .header_container_right_icons {
+        display: flex;
+        gap: 2.4rem;
+    }
+
+    i {
+        font-size: 3rem;
+    }
+
+    .main_aboud_box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main_aboud_box_right_box_avatar {
+        width: 100%;
+        height: 50.8rem;
+        object-fit: cover;
+    }
+
+
+    .main_aboud_box_left_box {
+        width: 100%;
+
+    }
+
+    .main_animal_section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main_animal_section_script_title {
+        font-size: 3.2rem;
+        font-weight: 500;
+        line-height: 4.8rem;
+        letter-spacing: -0.01em;
+        text-align: center;
+
+
+    }
+
+    .main_animal_section_script_note {
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 2.88rem;
+        letter-spacing: -0.01em;
+        text-align: center;
+
+    }
+
+    .main_animal_section_script_note_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .main_adopt_section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .main_adopt_section_primary_top {
+        text-align: center;
+    }
+
+    .main_adopt_section_primary_top_title_text {
+        font-size: 3.2rem;
+        line-height: 4.8rem;
+        color: #0E2515;
+        text-align: center;
+    }
+
+    .main_adopt_section_primary_cards_item_note {
+        font-size: 1.6rem;
+    }
+
+    .main_adopt_section_primary_cards {
+        grid-template-columns: 1fr;
+    }
+
+    .main_adopt_section_right_avatar {
+        align-self: center;
+    }
+
+    .main_followers_section_container_imgs {
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .main_followers_section_container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .main_followers_section_container_top_text_btn {
+        display: none;
+    }
+
+    .main_followers_section_container_top_text_btn_two {
+        display: block;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2.4rem;
+        background-color: #6cbda0;
+    }
+
+    .main_followers_section_container_top {
+        flex-direction: column;
+    }
+
+    .main_followers_section_container_top_text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main_followers_section_container_top_cards {
+        width: 100%;
+    }
+
+    .main_donate_section_top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main_donate_section_cards {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .main_donate_section_cards_item {
+        width: 70.5rem;
+        height: 40.3rem;
+        padding: 4rem 2.7rem;
+        gap: 4rem;
+        border-radius: 1.2rem;
+        border: 0.1rem solid #E0E8E0;
+
+
+    }
+
+    .main_donate_section_cards_item_btn {
+        width: 28.1rem;
+        height: 6.4rem;
+        padding: 2rem 4.8rem;
+        gap: 1.6rem;
+        border-radius: 1rem;
+        border: .1rem;
+
+
+    }
+
+    .main_donate_section_cards_item_btn_avatar {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    .main_pets_section_top_text {
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+    }
+
+    .main_pets_section_top_text_title {
+        font-size: 3.2rem;
+        font-weight: 500;
+        line-height: 4.8rem;
+
+
+    }
+
+    .main_pets_section_top_text_note {
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 2.88rem;
+        margin-top: 1.6rem;
+
+
+    }
+
+    .main_pets_section_imgs {
+        display: flex;
+    }
+
+    .main_pets_section_img {
+        width: 40.1rem;
+        height: 28.4rem;
+        display: flex;
+        border: radius 0.688rem;
+        ;
+
+    }
+
+
+
+
+
+}
+
+/* responsive end */
